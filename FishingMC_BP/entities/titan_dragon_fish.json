@@ -1,0 +1,52 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "fishingmc:titan_dragon_fish",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "fishingmc_fish",
+          "fish",
+          "aquatic",
+          "mob"
+        ]
+      },
+      "minecraft:health": {
+        "value": 100000000,
+        "max": 100000000
+      },
+      "minecraft:boss": {
+        "name": "TITAN DRAGON FISH",
+        "hud_range": 64,
+        "should_darken_sky": false
+      },
+      "minecraft:collision_box": {
+        "width": 10,
+        "height": 7
+      },
+      "minecraft:scale": {
+        "value": 1.25
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:nameable": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/titan_dragon_fish.json"
+      }
+    }
+  }
+}
