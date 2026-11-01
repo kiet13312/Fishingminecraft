@@ -1,0 +1,39 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.fishingmc.titan_dragon_fish.swim": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "tail": {
+          "rotation": [
+            "0",
+            "0",
+            "math.sin(query.life_time * 6.0) * 20.0"
+          ]
+        },
+        "left_fin": {
+          "rotation": [
+            "0",
+            "0",
+            "-12.0 + math.sin(query.life_time * 5.0) * 9.0"
+          ]
+        },
+        "right_fin": {
+          "rotation": [
+            "0",
+            "0",
+            "12.0 - math.sin(query.life_time * 5.0) * 9.0"
+          ]
+        },
+        "jaw": {
+          "rotation": [
+            "math.sin(query.life_time * 3.0) * 3.0",
+            "0",
+            "0"
+          ]
+        }
+      }
+    }
+  }
+}
