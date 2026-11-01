@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "fishingmc:titan_dragon_fish",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/titan_dragon_fish"
+      },
+      "geometry": {
+        "default": "geometry.fishingmc.titan_dragon_fish"
+      },
+      "animations": {
+        "swim": "animation.fishingmc.titan_dragon_fish.swim"
+      },
+      "scripts": {
+        "animate": [
+          "swim"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#D94B20",
+        "overlay_color": "#FFD04A"
+      }
+    }
+  }
+}
