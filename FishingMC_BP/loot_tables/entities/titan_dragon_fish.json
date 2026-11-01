@@ -1,0 +1,16 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "fishingmc:dragon_scale"
+        }
+      ]
+    }
+  ]
+}
