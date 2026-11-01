@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "fishingmc",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "dragon_scale": {
+      "textures": "textures/items/dragon_scale"
+    }
+  }
+}
