@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Câu Cá Vạn Cân - Behavior",
+    "description": "Gọi và chiến đấu với Titan Dragon Fish bằng cần câu Minecraft.",
+    "uuid": "e720dbcb-a0c9-4fce-b3c9-859f79a5146d",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c6b0fd26-bcec-4aac-a7c4-d8d363d86847",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "8be60fb0-44cb-4a30-9462-2e25c430f5e2",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "3459b91c-eb36-474a-804c-6a91aaf96772",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    }
+  ]
+}
