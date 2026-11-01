@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Câu Cá Vạn Cân - Resources",
+    "description": "Model, texture and animation for Titan Dragon Fish.",
+    "uuid": "3459b91c-eb36-474a-804c-6a91aaf96772",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "bb38ee9e-9329-4eea-8355-09ad0bc6c2c8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
