@@ -1,0 +1,14 @@
+# Cài đặt nhanh
+
+**Câu Cá Vạn Cân — Fishing Minecraft** là add-on Bedrock gồm Behavior Pack + Resource Pack.
+
+1. Mở tệp `FishingMC.mcaddon` bằng Minecraft.
+2. Vào chỉnh sửa thế giới, kích hoạt cả hai pack.
+3. Bật Cheats nếu muốn dùng lệnh kiểm tra.
+4. Đứng cạnh hồ/biển, hướng mặt xuống nước và dùng cần câu thường.
+5. Khi Titan Dragon Fish xuất hiện, tiếp tục dùng cần câu để kéo cá. Mỗi nhịp trừ 2.471.281 HP.
+6. Hạ boss sẽ rơi 3–7 Vảy Rồng.
+
+Lệnh test: `/function summon_titan`
+
+Tệp được tạo cho Bedrock 1.26.50+; chưa có runtime Minecraft trong môi trường đóng gói để kiểm thử trực tiếp trong game.
